@@ -1,0 +1,15 @@
+﻿Build started...
+1>------ Build started: Project: Shooting1, Configuration: Development_Editor x64 ------
+1>Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" Shooting1Editor Win64 Development -Project="C:\Users\SBAuser\Desktop\Shooting1\Shooting1.uproject" -WaitMutex -FromMsBuild
+1>Log file: C:\Users\SBAuser\AppData\Local\UnrealBuildTool\Log.txt
+1>Invalidating makefile for Shooting1Editor (working set of source files changed)
+1>Parsing headers for Shooting1Editor
+1>  Running Internal UnrealHeaderTool C:\Users\SBAuser\Desktop\Shooting1\Shooting1.uproject C:\Users\SBAuser\Desktop\Shooting1\Intermediate\Build\Win64\Shooting1Editor\Development\Shooting1Editor.uhtmanifest -WarningsAsErrors -installed
+1>C:\Users\SBAuser\Desktop\Shooting1\Source\Shooting1\Public\CodeTest.h(77): error : Invalid use of keyword 'UPROPERTY'.  It may only appear in Class, and Struct scopes
+1>C:\Users\SBAuser\Desktop\Shooting1\Source\Shooting1\Public\CodeTest.h(82): error : Invalid use of keyword 'UPROPERTY'.  It may only appear in Class, and Struct scopes
+1>C:\Users\SBAuser\Desktop\Shooting1\Source\Shooting1\Public\CodeTest.h(84): error : Invalid use of keyword 'UPROPERTY'.  It may only appear in Class, and Struct scopes
+1>C:\Users\SBAuser\Desktop\Shooting1\Source\Shooting1\Public\CodeTest.h(88): error : Invalid use of keyword 'UPROPERTY'.  It may only appear in Class, and Struct scopes
+1>Total of 0 written
+1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(45,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_5.1\Engine\Build\BatchFiles\Build.bat" Shooting1Editor Win64 Development -Project="C:\Users\SBAuser\Desktop\Shooting1\Shooting1.uproject" -WaitMutex -FromMsBuild" exited with code 6.
+1>Done building project "Shooting1.vcxproj" -- FAILED.
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
