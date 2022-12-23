@@ -14,7 +14,7 @@ class SHOOTING1_API ACodeTest : public AActor
 public:
 	// Sets default values for this actor's properties
 	ACodeTest();
-
+	
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -54,7 +54,7 @@ public:
 
 
 	//정수형변수2개를 입력값으로 받아서 정수형함수1개로 내뱉는다는 말,구현은 소스파일에서한다.
-	int32 Add(int32 number1, int32 number2);
+	int32 Add(int32* number1, int32* number2);
 	int32 Subtract(int32 number1, int32 number2);
 	int32 Multiply(int32 number1, int32 number2);
 	float Divide(int32 number1, int32 number2);
@@ -94,6 +94,13 @@ public:
 	//구구단 7단출력
 	int32 num = 7;
 
+
+	TMap<FString, float> distances;
+
+	UPROPERTY(EditAnywhere)
+	TArray<class APointerTest*> pointerTest;
+	
+	class APointerTest* pointerTest2;
 };
 
 
